@@ -17,7 +17,7 @@ Step 4: To deploy application to gcloud platform:
       c. Type `docker build .` on cmd to build a docker image
       d. Type `docker images` on cmd to see the first docker image. After hitting enter. You will see Newest created image which will be always on the top of the list
       e. Now we can see newest created image has tag as <none> and its image id.
-         type ‘docker tag <your newest image id> gcr.io/<your project id>/<project name> and hit enter and then type docker images. 
+         type ‘docker tag 28978413a455 gcr.io/flaskhelloworldapp-420923/flaskhelloworldapp and hit enter and then type docker images. 
          you will see your image id with tag name
       f. Type `gcloud init` on cmd and it will prompt Create or select a configuration choose existing configurations and hit enter and
          it will prompt Choose a current Google Cloud project, choose your current gcloud project number and hit ent
